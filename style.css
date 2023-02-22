@@ -1,0 +1,17 @@
+
+.calculator_wrapper {
+    margin: auto auto;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 360px;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+
+@media only screen and (max-width : 480px) {
+    .calculator_wrapper {
+        width: 100vw;
+        height: 100vh;
+    }
+}
