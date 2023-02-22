@@ -1,16 +1,26 @@
 
 .calculator_wrapper {
+    border-radius: 20px;
     margin: auto auto;
     max-width: 100vw;
     max-height: 100vh;
     width: 360px;
     height: 800px;
-    background-color: aquamarine;
+    background: linear-gradient(168.55deg, #71C09F 0%, #27434B 100%);
+    display: grid;
+    grid-template-rows: 240px 1fr;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
 
 @media only screen and (max-width : 480px) {
     .calculator_wrapper {
+        border-radius: 0px;
         width: 100vw;
         height: 100vh;
     }
